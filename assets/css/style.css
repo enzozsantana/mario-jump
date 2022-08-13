@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +14,10 @@
     position: relative;
     overflow: hidden;
     background: linear-gradient(#87CEEB, #E0F6FF);
+}
+
+.placar {
+    position: absolute;
 }
 
 .clouds {
