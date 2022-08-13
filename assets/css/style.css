@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -41,6 +42,21 @@
     bottom: 0;
     width: 80px;
     animation: pipe-animation 1.7s infinite linear;
+}
+.restart-button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 700;
+    font-size: 70px;
+    visibility: hidden;
 }
 
 @keyframes pipe-animation {
